@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Roboto;
+  font-style: lighter;
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  src: url('../fonts/CaveatBrush/CaveatBrush-Regular.ttf');
+}
+
+html{
+  font-family: Roboto;
+  scroll-behavior: smooth;
+}
+
+nav {
+  padding: 0 1rem;
+}
+
+.Logo__FontA {
+  font-size: 3.5rem;
+  font-family: 'Caveat Brush';
+}
+
+.Logo__FontB {
+  font-size: 2.9rem;
+  font-family: Roboto;
+  font-weight: normal;
+}
+
+h1 .Logo__FontA{
+  font-size: 6rem;
+  color: #ffab00; 
+}
+
+h1 .Logo__FontB{
+  font-size: 5rem;
+}
+
+.footerA{
+  background-color: #0091ea !important;
+}
+
+.Nav-Link:hover {
+  background-color: #0091ea;
+  font-weight: bold;
+}
+
+.text-secondary{
+  font-family: 'Caveat Brush';
+}
+
+.parallax-container.main{
+  height: calc(100vh - 4.3rem);
+}
+
+.yellow-text{
+  color: #ffab00 !important; 
+}
+
+.responsive-img{
+  height: 25rem !important;
+}
+
+.card-content p{
+  font-size: 1.3rem;
+}
+
+.modal-footer{
+  padding: 0 2rem !important;
+}
+
+.modal-content{
+  margin-bottom: -3rem;
+}
+
+.modal-content h2.color{
+  color: #ffab00 !important;
+}
+
+#3{
+  width: 50rem;
+}
+
+.mb5{
+  margin-bottom: 5rem !important;
+}
+
+nav a{
+  font-size: 1.2rem !important;
+}
